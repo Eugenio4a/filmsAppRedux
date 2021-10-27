@@ -1,0 +1,10 @@
+.poster {
+  objectfit: cover;
+  width: 250px;
+  height: 350px;
+}
+.filmCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

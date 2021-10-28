@@ -21,7 +21,7 @@ function App() {
     <>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {filmsList.map((film) => (
-          <FilmsList film={film} />
+          <FilmsList film={film} filmsList={filmsList} />
         ))}
       </div>
     </>

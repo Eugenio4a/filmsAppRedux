@@ -1,6 +1,9 @@
 import { createStore } from "redux";
 
-function reducer(state = { films: [], oneFilm: [], favorites: [] }, action) {
+function reducer(
+  state = { films: [], oneFilm: [], favorites: [], search: "" },
+  action
+) {
   switch (action.type) {
     case "updateFilms": {
       return { ...state, films: action.payload };
@@ -15,17 +18,28 @@ function reducer(state = { films: [], oneFilm: [], favorites: [] }, action) {
         )
       );
       if (!isFavorite) {
+        localStorage.setItem(
+          "movies",
+          JSON.stringify([...state.favorites, action.payload])
+        );
         return {
           ...state,
           favorites: [...state.favorites, action.payload],
         };
       }
+      localStorage.setItem(
+        "movies",
+        JSON.stringify([...state.favorites, action.payload])
+      );
       return {
         ...state,
         favorites: state.favorites.filter(
           (film) => film.id !== action.payload.id
         ),
       };
+    }
+    case "filmSearch": {
+      return { ...state, search: action.payload };
     }
     default:
       return state;

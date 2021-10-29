@@ -23,7 +23,6 @@ export default function FilmsList({ film }) {
         <span>{film.release_date}</span>
         <button
           onClick={() => {
-            console.log(favorite);
             dispatch({
               type: "addAndRemoveFromFavorites",
               payload: film,

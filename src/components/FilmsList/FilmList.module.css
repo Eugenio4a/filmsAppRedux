@@ -8,3 +8,28 @@
   flex-direction: column;
   padding: 20px;
 }
+.filmCardTitle {
+  width: 200px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  word-wrap: break-word;
+  font-weight: 900;
+}
+.filmCardBtn {
+  width: 200px;
+  height: 30px;
+  margin: 15px auto;
+  font-weight: 700;
+}
+.filmCardBtnAdded {
+  width: 200px;
+  height: 30px;
+  margin: 15px auto;
+  font-weight: 700;
+  background-color: rgb(251, 154, 154);
+}

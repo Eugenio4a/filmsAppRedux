@@ -18,10 +18,11 @@ export default function FilmsList({ film }) {
             alt="movie-poster"
           />{" "}
         </Link>
-        <span>{film.title}</span>
+        <span className={styles.filmCardTitle}>{film.title}</span>
         <br />
-        <span>{film.release_date}</span>
+        <span style={{ textAlign: "center" }}>{film.release_date}</span>
         <button
+          className={!favorite ? styles.filmCardBtn : styles.filmCardBtnAdded}
           onClick={() => {
             dispatch({
               type: "addAndRemoveFromFavorites",

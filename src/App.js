@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import FilmItem from './components/FIlmItem/FilmItem';
+import FilmList from './components/FilmList';
+import styles from './App.module.css';
 
 function App() {
-  const filmsList = useSelector((state) => state.films);
   const dispatch = useDispatch({});
-  const search = useSelector((state) => state.search);
+  const filmsList = useSelector((state) => state.films);
 
   useEffect(() => {
     fetch(
@@ -30,17 +30,8 @@ function App() {
     }
   }, [dispatch]);
 
-  return (
-    <>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {filmsList
-          .filter((film) => film.title.toLowerCase().includes(search))
-          .map((film) => (
-            <FilmItem film={film} />
-          ))}
-      </div>
-    </>
-  );
+  const cardProps = { cardStyle: styles, cardSize: 'small' };
+  return <FilmList filmsList={filmsList} cardProps={cardProps} />;
 }
 
 export default App;

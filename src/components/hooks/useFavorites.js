@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 function getFavorites({ favorites }) {
   return favorites;
 }
-export default function useSetLocalStorage(film = []) {
+export default function useFavorites(film = []) {
   const dispatch = useDispatch();
   const favoriteFilms = useSelector(getFavorites);
 

@@ -15,7 +15,7 @@ ReactDOM.render(
         <Route exact path="/">
           <App />
         </Route>
-        <Route path="/favorites">
+        <Route exact path="/favorites">
           <FavoriteFilms />
         </Route>
         <Route path="/film/:id">

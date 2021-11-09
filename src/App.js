@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import FilmsList from './components/FilmsList/FilmsList';
+import FilmItem from './components/FIlmItem/FilmItem';
 
 function App() {
   const filmsList = useSelector((state) => state.films);
@@ -36,7 +36,7 @@ function App() {
         {filmsList
           .filter((film) => film.title.toLowerCase().includes(search))
           .map((film) => (
-            <FilmsList film={film} />
+            <FilmItem film={film} />
           ))}
       </div>
     </>

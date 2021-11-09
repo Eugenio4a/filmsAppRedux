@@ -1,12 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import store from "./store";
-import { Provider } from "react-redux";
-import Header from "./components/Header/Header";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import FavoriteFilms from "./components/FavoriteFilms/FavoriteFilms";
-import Film from "./components/Film/Film";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import store from './store';
+import { Provider } from 'react-redux';
+import Header from './components/Header/Header';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import FavoriteFilms from './components/FavoriteFilms/';
+import Film from './components/Film/Film';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
@@ -24,5 +24,5 @@ ReactDOM.render(
       </Router>
     </Provider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );

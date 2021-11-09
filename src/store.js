@@ -1,44 +1,40 @@
-import { createStore } from "redux";
+import { createStore } from 'redux';
 
 function reducer(
-  state = { films: [], oneFilm: [], favorites: [], search: "" },
-  action
+  state = { films: [], oneFilm: [], favorites: [], search: '' },
+  action,
 ) {
   switch (action.type) {
-    case "updateFilms": {
+    case 'updateFilms': {
       return { ...state, films: action.payload };
     }
-    case "showOneFilm": {
+    case 'showOneFilm': {
       return { ...state, oneFilm: action.payload };
     }
-    case "addAndRemoveFromFavorites": {
+    case 'updateFavoriteFilms': {
+      return { ...state, favorites: action.payload };
+    }
+    case 'addAndRemoveFromFavorites': {
       const isFavorite = Boolean(
         state.favorites.find(
-          (favoriteFilm) => favoriteFilm.id === action.payload.id
-        )
+          (favoriteFilm) => favoriteFilm.id === action.payload.id,
+        ),
       );
       if (!isFavorite) {
-        localStorage.setItem(
-          "movies",
-          JSON.stringify([...state.favorites, action.payload])
-        );
         return {
           ...state,
           favorites: [...state.favorites, action.payload],
         };
       }
-      localStorage.setItem(
-        "movies",
-        JSON.stringify([...state.favorites, action.payload])
-      );
+
       return {
         ...state,
         favorites: state.favorites.filter(
-          (film) => film.id !== action.payload.id
+          (film) => film.id !== action.payload.id,
         ),
       };
     }
-    case "filmSearch": {
+    case 'filmSearch': {
       return { ...state, search: action.payload };
     }
     default:

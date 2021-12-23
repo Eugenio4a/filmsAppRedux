@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Eugenio4a.github.io/filmsAppRedux/static/css/main.2c35af3c.chunk.css",
-    "main.js": "/Eugenio4a.github.io/filmsAppRedux/static/js/main.1d19ba09.chunk.js",
-    "main.js.map": "/Eugenio4a.github.io/filmsAppRedux/static/js/main.1d19ba09.chunk.js.map",
-    "runtime-main.js": "/Eugenio4a.github.io/filmsAppRedux/static/js/runtime-main.0854f646.js",
-    "runtime-main.js.map": "/Eugenio4a.github.io/filmsAppRedux/static/js/runtime-main.0854f646.js.map",
-    "static/js/2.775bd0f9.chunk.js": "/Eugenio4a.github.io/filmsAppRedux/static/js/2.775bd0f9.chunk.js",
-    "static/js/2.775bd0f9.chunk.js.map": "/Eugenio4a.github.io/filmsAppRedux/static/js/2.775bd0f9.chunk.js.map",
-    "index.html": "/Eugenio4a.github.io/filmsAppRedux/index.html",
-    "static/css/main.2c35af3c.chunk.css.map": "/Eugenio4a.github.io/filmsAppRedux/static/css/main.2c35af3c.chunk.css.map",
-    "static/js/2.775bd0f9.chunk.js.LICENSE.txt": "/Eugenio4a.github.io/filmsAppRedux/static/js/2.775bd0f9.chunk.js.LICENSE.txt"
+    "main.css": "/Eugenio4a/filmsAppRedux/static/css/main.2c35af3c.chunk.css",
+    "main.js": "/Eugenio4a/filmsAppRedux/static/js/main.1d19ba09.chunk.js",
+    "main.js.map": "/Eugenio4a/filmsAppRedux/static/js/main.1d19ba09.chunk.js.map",
+    "runtime-main.js": "/Eugenio4a/filmsAppRedux/static/js/runtime-main.11282924.js",
+    "runtime-main.js.map": "/Eugenio4a/filmsAppRedux/static/js/runtime-main.11282924.js.map",
+    "static/js/2.775bd0f9.chunk.js": "/Eugenio4a/filmsAppRedux/static/js/2.775bd0f9.chunk.js",
+    "static/js/2.775bd0f9.chunk.js.map": "/Eugenio4a/filmsAppRedux/static/js/2.775bd0f9.chunk.js.map",
+    "index.html": "/Eugenio4a/filmsAppRedux/index.html",
+    "static/css/main.2c35af3c.chunk.css.map": "/Eugenio4a/filmsAppRedux/static/css/main.2c35af3c.chunk.css.map",
+    "static/js/2.775bd0f9.chunk.js.LICENSE.txt": "/Eugenio4a/filmsAppRedux/static/js/2.775bd0f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0854f646.js",
+    "static/js/runtime-main.11282924.js",
     "static/js/2.775bd0f9.chunk.js",
     "static/css/main.2c35af3c.chunk.css",
     "static/js/main.1d19ba09.chunk.js"

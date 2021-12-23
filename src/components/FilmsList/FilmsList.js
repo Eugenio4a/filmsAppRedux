@@ -6,8 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 export default function FilmsList({ film }) {
   const dispatch = useDispatch();
   const favoriteFilms = useSelector((state) => state.favorites);
-
   const favorite = Boolean(favoriteFilms.find((films) => films.id === film.id));
+
   return (
     <>
       <div className={styles.filmCard} key={film.id}>

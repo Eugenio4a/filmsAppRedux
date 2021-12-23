@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Eugenio4a/filmsAppRedux/static/css/main.2c35af3c.chunk.css",
-    "main.js": "/Eugenio4a/filmsAppRedux/static/js/main.1d19ba09.chunk.js",
-    "main.js.map": "/Eugenio4a/filmsAppRedux/static/js/main.1d19ba09.chunk.js.map",
-    "runtime-main.js": "/Eugenio4a/filmsAppRedux/static/js/runtime-main.11282924.js",
-    "runtime-main.js.map": "/Eugenio4a/filmsAppRedux/static/js/runtime-main.11282924.js.map",
-    "static/js/2.775bd0f9.chunk.js": "/Eugenio4a/filmsAppRedux/static/js/2.775bd0f9.chunk.js",
-    "static/js/2.775bd0f9.chunk.js.map": "/Eugenio4a/filmsAppRedux/static/js/2.775bd0f9.chunk.js.map",
-    "index.html": "/Eugenio4a/filmsAppRedux/index.html",
-    "static/css/main.2c35af3c.chunk.css.map": "/Eugenio4a/filmsAppRedux/static/css/main.2c35af3c.chunk.css.map",
-    "static/js/2.775bd0f9.chunk.js.LICENSE.txt": "/Eugenio4a/filmsAppRedux/static/js/2.775bd0f9.chunk.js.LICENSE.txt"
+    "main.css": "/filmsAppRedux/static/css/main.2c35af3c.chunk.css",
+    "main.js": "/filmsAppRedux/static/js/main.1d19ba09.chunk.js",
+    "main.js.map": "/filmsAppRedux/static/js/main.1d19ba09.chunk.js.map",
+    "runtime-main.js": "/filmsAppRedux/static/js/runtime-main.afee383b.js",
+    "runtime-main.js.map": "/filmsAppRedux/static/js/runtime-main.afee383b.js.map",
+    "static/js/2.775bd0f9.chunk.js": "/filmsAppRedux/static/js/2.775bd0f9.chunk.js",
+    "static/js/2.775bd0f9.chunk.js.map": "/filmsAppRedux/static/js/2.775bd0f9.chunk.js.map",
+    "index.html": "/filmsAppRedux/index.html",
+    "static/css/main.2c35af3c.chunk.css.map": "/filmsAppRedux/static/css/main.2c35af3c.chunk.css.map",
+    "static/js/2.775bd0f9.chunk.js.LICENSE.txt": "/filmsAppRedux/static/js/2.775bd0f9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11282924.js",
+    "static/js/runtime-main.afee383b.js",
     "static/js/2.775bd0f9.chunk.js",
     "static/css/main.2c35af3c.chunk.css",
     "static/js/main.1d19ba09.chunk.js"

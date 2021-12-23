@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Eugenio4a.github.io/filmsAppRedux/",
   "name": "film-app-redux",
+  "homepage": "https://Eugenio4a.github.io/filmsAppRedux/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

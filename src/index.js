@@ -4,7 +4,7 @@ import App from "./App";
 import store from "./store";
 import { Provider } from "react-redux";
 import Header from "./components/Header/Header";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import FavoriteFilms from "./components/FavoriteFilms/FavoriteFilms";
 import Film from "./components/Film/Film";
 ReactDOM.render(

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../FilmsList/FilmList.module.css";
+import styles from "./FilmList.module.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 

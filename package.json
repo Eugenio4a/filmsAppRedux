@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Eugenio4a/filmsAppRedux",
+  "homepage": "https://github.com/Eugenio4a.github.io/filmsAppRedux",
   "name": "film-app-redux",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
@@ -17,7 +16,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "build:staging": "env-cmd -f .env.staging npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
